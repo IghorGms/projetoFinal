@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* website vars */
+:root{
+    --text-main: #000000;
+    --text-second: #c0c0c0;
+    --main-bg: black;
+    --button-bg: #167Bf7;
+    --item-active: #468be6;
+    --main-font: 'inter';
+
+}
+
+
+body{
+    background-color: var(--main-bg);
+    color: var(--text-main);
+    font-family: var(--main-font);
+    font-size: 16px;
+    font-weight: 400;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="./styles/cadastroMedicoStyle.css">
+</head>
+<body>
+    <section>
+        <nav class="navbar is-primary" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="#">
+                    Odontoclin
+                </a>
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarMenu">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+            <div class="navbar-menu">
+                <div class="navbar-end">
+                    <a class="navbar-item" href="#">Home</a>
+                    <a class="navbar-item" href="#">Contato</a>
+                    <a class="navbar-item" href="cadastro.html">cadastro Paciente</a>
+                    <a class="navbar-item" href="cadastroMedico">Cadastro Medico</a>
+                    <a class="navbar-item" href="#">Login</a>
+                </div>
+        </nav>
+    </section>
+
+    <section>               
+        <div class="container">
+            <div class="right">
+                <h2>Registro de paciente</h2>
+                <form action="#" method="post">
+                    <input type="text" name="name" placeholder="Nome" required><br>
+                    <input type="text" name="address" placeholder="Endereço" required><br>
+                    <input type="text" name="security_number" placeholder="CPF" required>
+                    <input type="text" name="cadastromedico" placeholder="CRM" required>
+                    <input type="email" name="email" placeholder="Email" required><br>
+                    Escolha uma senha<br>
+                    <input type="password" class="pass__slot" name="password" placeholder="Senha" required><br>
+                    Data de Nascimento
+                    <input type="date" name="born_date" placeholder="Nascimento" required><br>
+                    <label for="produto">Especialidade</label><br>
+                    <select id="produto" name="produto" class="input-global">
+                            <option value="produto1">Clinica Geral</option>
+                            <option value="produto2">Bucomaxilofacial</option>
+                            <option value="produto3">Proteses</option>
+                            <option value="produto4">Cirurgião</option>                        
+                    </select><br>
+                    <br><input type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>                    
+    </section>
+</body>
+</html>
