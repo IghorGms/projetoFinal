@@ -5,9 +5,9 @@
 
 /* website vars */
 :root{
-    --text-main: #000000;
-    --text-second: #c0c0c0;
-    --main-bg: black;
+    --text-main: #100101;
+    --text-second: #000000ad;
+    --main-bg: #B5C9FE;
     --button-bg: #167Bf7;
     --item-active: #468be6;
     --main-font: 'inter';
@@ -22,3 +22,158 @@ body{
     font-size: 16px;
     font-weight: 400;
 }
+
+.navbar{
+    border: 1px solid black;
+    background-color: var(--main-bg);
+    font-weight: bold;
+    color: var(--text-main);
+}
+
+.navbar img{
+    width: 100%;
+}
+
+.navbar-burger span{
+    border: 1px solid var(--button-bg);
+    height: 2px;
+    width: 20px;
+}
+
+.main{
+    background-image: url("../assets/dentinho.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    height: 100vh;
+    /* o grid separa a tela em blocos */
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.container__box{
+    margin: 0 6em;
+}
+
+.container__titulo{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container__img{
+    margin: 1em 0 2em 0;
+}
+
+.container__botao{
+    background-color: var(--button-bg);
+    border-radius: 5px;
+    /* em é uma medida relativa */
+    margin-bottom: 1em;
+    padding: 1em;
+    color: var(--text-main);
+    text-decoration: none;
+    display: block;
+}
+
+.container__botao:hover{
+    border: 2px solid var(--item-active);
+}
+
+.botao__acesse{
+    background-color: transparent;
+    border: 2px solid var(--text-main);
+}
+
+.container__aviso{
+    font-size: 12px;
+    color: var(--text-second);
+}
+
+.second__img{
+    width: 80%;
+}
+
+.second{
+    align-items: center;
+    margin: 0 10em;
+}
+
+.second__container__description__title{
+    font-weight: 700;
+    font-size: 48px;
+    color: var(--text-main);
+    margin-bottom: 0.1em;
+}
+
+.second__container__description__text{
+    color: var(--text-second);
+}
+
+.second__botao{
+    display: inline-block;
+    margin-top: 1em;
+}
+
+.second__container__description{
+    padding: 2em;
+}
+
+
+.devices__title{
+    text-align: center;
+    font-size: 48px;
+    color: var(--text-main);
+}
+
+.devices__list{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style-type:  none;
+    margin: 5em 0;
+}
+
+.devices__list__item{
+    font-size: 32px;
+    color: var(--text-main);
+}
+
+.rodape{
+    text-align: center;
+    margin: 5em 3em;
+    
+}
+
+.rodape__logo{
+    margin: 2em;
+}
+
+.rodape__list{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.list__link a{
+    text-decoration: none;
+    color: var(--text-main);
+    margin-left: 1em;
+}
+
+.list__link a:hover{
+    color: var(--button-bg);
+}
+.list__link a:active{
+    color: var(--item-active);
+}
+
+.rodape__text{
+    margin: 1em 0;
+    color: var(--text-second);
+    font-size: 14px;
+}
+
