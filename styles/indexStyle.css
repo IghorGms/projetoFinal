@@ -19,20 +19,30 @@ body{
     background-color: var(--main-bg);
     color: var(--text-main);
     font-family: var(--main-font);
-    font-size: 16px;
-    font-weight: 400;
 }
+
+
+.navbar-menu {
+    display: none;
+    
+}
+
 
 .navbar{
     border: 1px solid black;
     background-color: var(--main-bg);
     font-weight: bold;
     color: var(--text-main);
+    padding: 0 0.7rem;
+}
+.navbar-burger {
+    cursor: pointer;
 }
 
-.navbar img{
-    width: 100%;
+.navbar-burger:hover {
+    opacity: 0.7;
 }
+
 
 .navbar-burger span{
     border: 1px solid var(--button-bg);
@@ -50,7 +60,6 @@ body{
 
 .container{
     height: 100vh;
-    /* o grid separa a tela em blocos */
     display: grid;
     grid-template-columns: 50% 50%;
 }
@@ -60,18 +69,17 @@ body{
 }
 
 .container__titulo{
-    font-size: 28px;
-    font-weight: 700;
+    font-size: 2.5em;
+    font-weight: 500;
 }
 
 .container__img{
-    margin: 1em 0 2em 0;
+    margin: 5% 0 2% 0;
 }
 
 .container__botao{
     background-color: var(--button-bg);
     border-radius: 5px;
-    /* em é uma medida relativa */
     margin-bottom: 1em;
     padding: 1em;
     color: var(--text-main);
@@ -89,7 +97,7 @@ body{
 }
 
 .container__aviso{
-    font-size: 12px;
+    font-size: 1em;
     color: var(--text-second);
 }
 
@@ -104,7 +112,7 @@ body{
 
 .second__container__description__title{
     font-weight: 700;
-    font-size: 48px;
+    font-size: 3.5em;
     color: var(--text-main);
     margin-bottom: 0.1em;
 }
@@ -125,7 +133,7 @@ body{
 
 .devices__title{
     text-align: center;
-    font-size: 48px;
+    font-size: 3.5em;
     color: var(--text-main);
 }
 
@@ -138,19 +146,16 @@ body{
 }
 
 .devices__list__item{
-    font-size: 32px;
+    font-size: 2em;
     color: var(--text-main);
 }
 
 .rodape{
     text-align: center;
-    margin: 5em 3em;
+    background-color: var(--main-bg);
     
 }
 
-.rodape__logo{
-    margin: 2em;
-}
 
 .rodape__list{
     display: flex;
@@ -172,8 +177,7 @@ body{
 }
 
 .rodape__text{
-    margin: 1em 0;
     color: var(--text-second);
-    font-size: 14px;
+    font-size: 1em;
 }
 
