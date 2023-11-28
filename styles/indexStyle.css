@@ -133,6 +133,7 @@ body{
 
 .devices__title{
     text-align: center;
+    width: 100%;
     font-size: 3.5em;
     color: var(--text-main);
 }
