@@ -24,10 +24,6 @@
     --button-size: 0.7em;
 }
 
-body{
-    background-color: #b6eaff;
-}
-
 
 .navbar{
     border: 1px solid black;
@@ -54,9 +50,10 @@ body{
 .container {
     display: flex;
     width: 80%;
+    margin-top: 20px;
+    margin-bottom: 20px;
     background-color: var(--main-bg);
     border-radius: 8px;
-    overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border: 1px solid black;
 }
@@ -121,7 +118,10 @@ input{
     text-align: center;
 }
 .formfield input[type="submit"]:hover {
-    background-color: #0056b3;
+    background:#92bde7;
+    color:#fff;
+    outline:0;
+    transition: background-color 2s ease-out;
 }
 
 .rodape{

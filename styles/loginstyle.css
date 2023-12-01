@@ -82,9 +82,6 @@ body {
 
 .form-wrapper {
     position: relative;
-    display: grid;
-    grid-template-columns: 3fr 2fr;
-    max-width: 1200px;
 }
 
 
@@ -105,9 +102,7 @@ body {
     flex-direction: column;
     justify-content: start;
     align-items: center;
-    background: linear-gradient(92.15deg, 
-        var(--main-bg) 30.13%, 
-        var(-) 95.43%);
+    background: var(--white)
 }
 
 .info-side img {

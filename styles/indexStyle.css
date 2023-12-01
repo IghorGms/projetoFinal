@@ -27,7 +27,10 @@
 body{
     background-color: var(--main-bg);
     color: var(--text-main);
-    font-family: var(--main-font);
+    font-family: var(--main-font); 
+    max-width:100%;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 
