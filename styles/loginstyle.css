@@ -5,9 +5,7 @@
     --text-main: #100101;
     --text-second: #000000ad;
     --main-bg: #B5C9FE;
-    --button-bg: #167Bf7;
     --item-active: #468be6;
-    --main-font: 'inter';
     --primary: #6B43FF;
     --primary-light: #6667B0;
     --violet-light: #B492FD;
@@ -15,6 +13,11 @@
     --white: #F4F1FF;
     --text: #323760;
     --info-side-background: #ad4ef5;
+    --main-font: 'inter';
+    --mainText-size: 1.9em;
+    --secondText-size: 1em;
+    --cardText-size: 0.75em;
+    --button-size: 0.7em;
 }
 
 body {

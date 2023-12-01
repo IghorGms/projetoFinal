@@ -61,12 +61,13 @@
 
 .columns{
     justify-content: center;
-    padding: 50px 0px;
+    padding: 10px 0;
 }
 
 .card-content{
     font-size: var(--cardText-size);
     color: var(--secondary);
+    
 }
 
 .schedule{
@@ -107,4 +108,36 @@
     color: var(--main-bg);
     transform:scale(1.1);
 }
+
+.rodape{
+    text-align: center;
+    background-color: var(--main-bg);
+    
+}
+
+
+.rodape__list{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.list__link a{
+    text-decoration: none;
+    color: var(--text-main);
+    margin-left: 1em;
+}
+
+.list__link a:hover{
+    color: var(--button-bg);
+}
+.list__link a:active{
+    color: var(--item-active);
+}
+
+.rodape__text{
+    color: var(--text-second);
+    font-size: 1em;
+}
+
 
