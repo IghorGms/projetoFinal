@@ -1,4 +1,9 @@
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 
 :root {
@@ -26,11 +31,6 @@ body {
     font-family: Mulish, sans-serif;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 .socials-row {
     display: flex;
@@ -86,7 +86,7 @@ body {
 
 
 .form-side {
-    padding: 186px 32px 48px 32px;
+    padding: 100px 32px 48px 32px;
     display: flex;
     justify-content: center;
     align-items: start;
@@ -294,4 +294,45 @@ body {
         display: none;
         padding: 48px 48px 48px 32px;
     }
+}
+
+.rodape{
+    text-align: center;
+    background-color: var(--main-bg);
+    gap: 10px;
+    
+}
+
+.rodape__list{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.list__link a{
+    text-decoration: none;
+    color: var(--text-main);
+    margin-left: 1em;
+}
+
+.list__link a:hover{
+    color: var(--button-bg);
+}
+.list__link a:active{
+    color: var(--item-active);
+}
+
+.rodape__text1{
+    color: var(--text-second);
+    font-size: var(--secondText-size);
+    margin: 10px 0;
+    font-weight: 200;
+}
+
+.rodape__text{
+    color: var(--text-second);
+    font-size: 1.3em;
+    margin: 10px 0;
+    color: var(--text-main);
+    font-weight: 200;
 }

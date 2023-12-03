@@ -28,15 +28,18 @@ body{
     background-color: var(--main-bg);
     color: var(--text-main);
     font-family: var(--main-font); 
-    max-width:100%;
-    margin-left:auto;
-    margin-right:auto;
+    max-width: 100%
 }
 
 
 .navbar-menu {
     display: none;
+    background-color: var(--main-bg);
     
+}
+
+.navbar-brand{
+    background-color: var(--main-bg);
 }
 
 
@@ -45,9 +48,10 @@ body{
     background-color: var(--main-bg);
     font-weight: bold;
     color: var(--text-main);
-    padding: 0 0.7rem;
 }
+
 .navbar-burger {
+    background-color: var(--main-bg);
     cursor: pointer;
 }
 
@@ -66,6 +70,7 @@ body{
     background-image: url("../assets/dentinho.jpg");
     background-repeat: no-repeat;
     background-size:cover;
+    background-size: 90%;
     align-items: center;
     text-align: center;
 }
@@ -166,31 +171,32 @@ body{
 .rodape{
     text-align: center;
     background-color: var(--main-bg);
+    padding: 20px 0;
     
-}
-
-
-.rodape__list{
+  }
+  
+  
+  .rodape__list{
     display: flex;
     justify-content: center;
     list-style-type: none;
-}
-
-.list__link a{
+  }
+  
+  .list__link a{
     text-decoration: none;
     color: var(--text-main);
     margin-left: 1em;
-}
-
-.list__link a:hover{
+  }
+  
+  .list__link a:hover{
     color: var(--button-bg);
-}
-.list__link a:active{
+  }
+  .list__link a:active{
     color: var(--item-active);
-}
-
-.rodape__text{
+  }
+  
+  .rodape__text{
     color: var(--text-second);
     font-size: 1em;
-}
+  }
 
