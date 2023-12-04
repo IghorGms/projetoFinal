@@ -71,6 +71,14 @@
     text-align: center;
 }
 
+.textbox {
+    max-width: 100%;
+    max-height: 200px;
+    resize: auto; 
+    overflow-y: auto; 
+}
+
+
 
 .medico-card{
     border: 1px solid black;
@@ -82,38 +90,6 @@
     
 }
 
-.schedule{
-    text-align: center;
-    padding: 10px 0;
-}
-
-.form-box{
-    text-align: center;
-}
-
-.formfield input[type="radio"]{
-    text-align: center;
-    width: 20.5em;
-    font-size: 1.5em;
-    color: var(--text-main);
-}
-
-.button-agendar{
-    font-size: var(--secondText-size);
-    background:#c9e6ff;
-    border:1px solid black;
-    padding: 0 30px;
-    margin: 20px 0;
-    text-transform: uppercase;
-    
-}
-
-.button-agendar:hover{
-    background:#92bde7;
-    color:#fff;
-    outline:0;
-    transition: background-color 2s ease-out;    
-}
 
 .button-bot{
     font-size: var(--secondText-size);

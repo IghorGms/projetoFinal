@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odontoclin</title>
-    <link rel="stylesheet" href="./styles/areaPacStyle.css">
+    <link rel="stylesheet" href="./styles/histConsultStyle.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
     <link rel="shortcut icon" href="./assets/dentinho.jpg" type="image/x-icon" />
     <link href="https://fonts.googleapis.com/css2?family=Cabin+Condensed&family=Inter&family=Mooli&display=swap" rel="stylesheet">
@@ -37,37 +37,20 @@
 
     <section class="section">
         <div class="container">
-          <h class="head">Página do Paciente</h>
-    
-          <!-- Médicos e Especialidades -->
-          <p class="subtitle">Médicos e Especialidades</p>
+          <h class="head">Histórico de Consultas</h>
           <div class="columns is-multiline">
           <!-- Card de Médico -->
             <div class='column is-one-third'>
               <div class='medico-card card' name='1'>
                     <div class='card-content'>
-                        <p class='title'>Dr. Exemplo</p>
-                        <p class='subtitle'>Clínica Geral</p>
-                        <p>Horário: Seg-Sex, 9h - 17h</p>
-                        <p>Local: Hospital Exemplo / Clínica Geral</p>                  
+                        <label>Sua ultima consulta: </label><br>
+                        <textarea class="textbox" name="message" rows="5" id="message"></textarea>                                         
                     </div>
-
-                    <form action='agendamento.php' method='post'>
-                        <input type='hidden' name='id_medico' value='1'>
-                        <label for='hora4'>09:00</label>
-                        <input type='radio' id='hora4' name='horario' value='09:00'>
-                        <label for='hora5'>10:00</label>
-                        <input type='radio' id='hora5' name='horario' value='10:00'>
-                        <label for='hora6'>11:30</label>
-                        <input type='radio' id='hora6' name='horario' value='11:30'>
-                    </form>
-
-                    <button class='button-agendar' type='submit'>Agendar</button>
                 </div>
                 
                 <div class="button-box">
                   <button class='button-bot' onclick='telapacientefinal()'>Voltar para consultas</button>
-                  <a href="./histConsult.html"><button class='button-bot'>Histórico de Consultas</button></a>
+                  <a href="#"><button class='button-bot'>Imprimir Resumo</button></a>
                 </div>
 
             </div>
@@ -78,8 +61,9 @@
           }
         </script>
 
-        <script src="./scripts/script.js"></script> 
       </section>
 
 </body>
+
+<script src="./scripts/script.js"></script>
 </html>
