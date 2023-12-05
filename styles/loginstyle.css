@@ -28,7 +28,7 @@
 body {
     font-size: 16px;
     background: var(--primary-light);
-    font-family: Mulish, sans-serif;
+    /* font-family: Mulish, sans-serif; */
 }
 
 
@@ -320,11 +320,11 @@ body {
 
 .rodape__text{
     color: var(--text-second);
-    font-size: 1.3em;
+    font-size: 1em;
     margin: 10px 0;
-    color: var(--text-main);
     
 }
+
 @media (max-width: 840px) {
     .form-wrapper {
         grid-template-columns: 1fr;
